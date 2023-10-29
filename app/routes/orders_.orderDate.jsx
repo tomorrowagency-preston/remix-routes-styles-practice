@@ -1,6 +1,12 @@
-const OrderDate = () => <h1>Order Date</h1>
+import styles from '../styles/orders.css';
+
+const OrderDate = () => <h1 class="orders">Order Date</h1>
 
 export default OrderDate;
+
+export function links() {
+  return [{rel: 'stylesheet', href: styles}]
+}
 
 /*
 using a trailing underscore on 'orders_' changes the 'layout'.

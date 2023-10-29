@@ -1,4 +1,4 @@
-const OrderDate = () => <h1>Order Date</h1>
+const OrderDate = () => <h1 class="orders">Order Date</h1>
 
 export default OrderDate;
 
